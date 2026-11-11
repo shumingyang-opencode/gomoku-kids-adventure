@@ -1,0 +1,23 @@
+/* 兒童中文 HTML 共用字型：注音芫荽 BpmfIansui
+ * 用法：在 HTML <head> 加上：
+ *   <link rel="stylesheet" href="assets/kids-font.css">
+ * 若 HTML 不在 teach-me/ 根目錄，請調整 href 指向此檔。
+ * 來源：google/fonts ofl/bpmfiansui（上游 ButTaiwan/bpmfvs），授權見 ../fonts/OFL.txt
+ */
+
+@font-face {
+  font-family: "BpmfIansui";
+  src: url("../fonts/BpmfIansui-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, div, span, li, a, td, th {
+  font-family: "BpmfIansui", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+/* 程式碼保持等寬字型，不套用兒童字型 */
+code, pre, kbd, samp {
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+}
